@@ -17,7 +17,7 @@ body {
 }
 
 p {
-    color: dodgerblue;
+    color: gray;
 }
 
 * {
@@ -35,10 +35,10 @@ export const Wrapper = styled.div`
 	.score {
 		color: #fff;
 		font-size: 2rem;
-		margin: 0;
+		margin: 0 auto 1rem;
 	}
 	h1 {
-		font-family: Fascinate Inline;
+		font-family: Arial;
 		background-image: linear-gradient(180deg, #fff, #87f1ff);
 		font-weight: 400;
 		background-size: 100%;
@@ -55,8 +55,8 @@ export const Wrapper = styled.div`
 	.start,
 	.next {
 		cursor: pointer;
-		background: linear-gradient(180deg, #ffffff, #ffcc91);
-		border: 2px solid #d38558;
+		background: linear-gradient(180deg, dodgerblue, lightblue);
+		border: none;
 		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
 		border-radius: 10px;
 		height: 40px;

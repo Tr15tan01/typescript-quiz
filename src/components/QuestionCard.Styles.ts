@@ -1,15 +1,25 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  max-width: 1100px;
+  max-width: 1200px;
   background: #ebfeff;
   border-radius: 10px;
-  border: 2px solid #0085a3;
-  padding: 20px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  // border: 2px solid gray;
+  padding: 30px;
+  transition: all 0.5s ease;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.6);
   text-align: center;
+  animation: fadeIn .6s;
   p {
     font-size: 1rem;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 `;
 
@@ -31,9 +41,9 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
     height: 40px;
     margin: 5px 0;
     background: ${({ correct, userClicked }) =>
-      correct
-        ? 'linear-gradient(90deg, #56FFA4, #59BC86)'
-        : !correct && userClicked
+    correct
+      ? 'linear-gradient(90deg, #56FFA4, #59BC86)'
+      : !correct && userClicked
         ? 'linear-gradient(90deg, #FF5656, #C16868)'
         : 'linear-gradient(90deg, #56ccff, #6eafb4)'};
     border: 3px solid #ffffff;
