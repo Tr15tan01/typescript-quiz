@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/typescript_quiz/static/css/main.0e51fb2a.chunk.css",
+    "main.js": "/typescript_quiz/static/js/main.6ee53599.chunk.js",
+    "main.js.map": "/typescript_quiz/static/js/main.6ee53599.chunk.js.map",
+    "runtime-main.js": "/typescript_quiz/static/js/runtime-main.71f44bad.js",
+    "runtime-main.js.map": "/typescript_quiz/static/js/runtime-main.71f44bad.js.map",
+    "static/js/2.7095682a.chunk.js": "/typescript_quiz/static/js/2.7095682a.chunk.js",
+    "static/js/2.7095682a.chunk.js.map": "/typescript_quiz/static/js/2.7095682a.chunk.js.map",
+    "static/js/3.409f29da.chunk.js": "/typescript_quiz/static/js/3.409f29da.chunk.js",
+    "static/js/3.409f29da.chunk.js.map": "/typescript_quiz/static/js/3.409f29da.chunk.js.map",
+    "index.html": "/typescript_quiz/index.html",
+    "static/css/main.0e51fb2a.chunk.css.map": "/typescript_quiz/static/css/main.0e51fb2a.chunk.css.map",
+    "static/js/2.7095682a.chunk.js.LICENSE.txt": "/typescript_quiz/static/js/2.7095682a.chunk.js.LICENSE.txt",
+    "static/media/bg.92bedd0a.jpg": "/typescript_quiz/static/media/bg.92bedd0a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71f44bad.js",
+    "static/js/2.7095682a.chunk.js",
+    "static/css/main.0e51fb2a.chunk.css",
+    "static/js/main.6ee53599.chunk.js"
+  ]
+}
